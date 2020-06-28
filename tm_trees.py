@@ -1,21 +1,3 @@
-"""Assignment 2: Trees for Treemap
-
-=== CSC148 Winter 2019 ===
-This code is provided solely for the personal and private use of
-students taking the CSC148 course at the University of Toronto.
-Copying for purposes other than this use is expressly prohibited.
-All forms of distribution of this code, whether as given or with
-any changes, are expressly prohibited.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) 2019 Bogdan Simion, David Liu, Diane Horton, Jacqueline Smith
-
-=== Module Description ===
-This module contains the basic tree interface required by the treemap
-visualiser. You will both add to the abstract class, and complete a
-concrete implementation of a subclass to represent files and folders on your
-computer's file system.
-"""
 from __future__ import annotations
 import os
 import math
@@ -439,9 +421,3 @@ class FileSystemTree(TMTree):
 
 
 if __name__ == '__main__':
-    import python_ta
-    python_ta.check_all(config={
-        'allowed-import-modules': [
-            'python_ta', 'typing', 'math', 'random', 'os', '__future__'
-        ]
-    })
