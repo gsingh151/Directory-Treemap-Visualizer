@@ -1,22 +1,3 @@
-"""Assignment 2: Treemap Visualiser
-
-=== CSC148 Winter 2019 ===
-This code is provided solely for the personal and private use of
-students taking the CSC148 course at the University of Toronto.
-Copying for purposes other than this use is expressly prohibited.
-All forms of distribution of this code, whether as given or with
-any changes, are expressly prohibited.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) 2019 Bogdan Simion, David Liu, Diane Horton, Jacqueline Smith
-
-=== Module Description ===
-This module contains the main program code for the treemap visualisation.
-It is responsible for initializing an instance of TMTree (using a
-concrete subclass, of course), rendering it to the user using pygame,
-and detecting user events like mouse clicks and key presses and responding
-to them.
-"""
 from typing import Optional, Tuple
 import pygame
 from tm_trees import TMTree, FileSystemTree
@@ -224,14 +205,3 @@ if __name__ == '__main__':
         ],
         'generated-members': 'pygame.*'
     })
-
-    # To check your work for Tasks 1-5, try uncommenting the following function
-    # call, with the '' replaced by a path like
-    # 'C:\\Users\\David\\Documents\\csc148\\assignments' (Windows) or
-    # '/Users/dianeh/Documents/courses/csc148/assignments' (OSX)
-    run_treemap_file_system("C:\\Users\\coolg\\Downloads\\csc148\\csc148\\assignments\\a2\\example-directory\\workshop")
-    #C:\Users\coolg\Downloads\csc148\csc148\assignments\a2\example-directory\workshop
-    #C:\\Users\\coolg\\Downloads\\Tester
-    #C:\\Users\\coolg\\Downloads\\csc148\\csc148\\assignments\\a2\\example-directory\\workshop
-    # To check your work for Task 6, try uncommenting the following
-    # run_treemap_papers()
